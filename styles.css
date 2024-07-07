@@ -51,9 +51,6 @@ header h1 {
   align-items: center;
   justify-content: center;
 }
-.promo p {
-  align-items: center;
-}
 main {
   display: grid;
   grid-template-columns: 30% 70%;
@@ -101,6 +98,24 @@ h2 {
 .left-half li:last-of-type{
   border: none;
 }
+#email {
+  background: url(assets/email.png);
+  background-repeat: no-repeat;
+  padding-left: 28px;
+}
+#telegram {
+  background: url(assets/telegram-app.svg);
+  background-repeat: no-repeat;
+  padding-left: 28px;
+}
+#discord {
+  background: url(assets/discord.svg);
+  background-repeat: no-repeat;
+  padding-left: 28px;
+}
+.contacts li {
+  border: none;
+}
 footer {
   display: flex;
   height: fit-content;
@@ -111,7 +126,7 @@ footer {
   color: var(--font-color);
 }
 footer a {
-  color: var();
+  color: var(--accent-color);
 }
 footer img {
   height: 3em;
