@@ -5,7 +5,7 @@
 }
 :root {
   --body-bg-color: #DCDCDD;
-  --header-footer-color: #697A21;
+  --right-half-menu-color: #697A21;
   --font-color: white;
   --accent-color: #FF9505;
   --left-half-color: #1B2F33
@@ -75,7 +75,7 @@ h2 {
   padding-top: 2em;
 }
 .right-half h2 {
-  background-color: var(--header-footer-color);
+  background-color: var(--right-half-menu-color);
 }
 .right-half li {
   list-style-position: inside;
