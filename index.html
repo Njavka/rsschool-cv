@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>CV</title>
+</head>
+<body>
+  <header>
+    <div class="name-logo">
+      <img src="CV_Photo.jpg" alt="avatar of Yana Studyonova">
+        <h1>Yana<br>Studyonova</h1>
+    </div>
+    <div class="promo">
+      <p><em>Aspiring beginner programmer, ready to contribute to your company. Seeking an opportunity to grow as a Junior Developer and apply my knowledge in creating innovative software solutions</em></p>
+    </div>
+  </header>
+  <main>
+    <div class="left-half">
+      <nav class="contacts">
+        <h2>Contacts</h2>
+        <ul>
+          <li id="email">navka@list.ru</li>
+          <li id="telegram">@Navka_Navka</li>
+          <li id="discord">_navka_</li>
+        </ul>
+      </nav>
+      <article>
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML/HTML5</li>
+          <li>CSS/CSS3</li>
+          <li>JavaScript Basics</li>
+          <li>Java Basics</li>
+          <li>PHP Basics</li>
+          <li>SQL Basics</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Languages</h2>
+        <ul>
+          <li>Russian native</li>
+          <li>English C1</li>
+          <li>German A1</li>
+        </ul>
+      </article>
+    </div>
+    <div class="right-half">
+      <article class="about">
+        <h2>About Me</h2>
+        <p>I'm 43 and I am a freelance translator from English into Russian, working mostly in IT, but also in medicine, technology, and science. I've always been fond of anything related to computers and electronics: PC architecture, Computer Science, and programming. I assembled all my PCs myself, starting with my first Intel 80386-based PC in 1997 and continuing to my current configuration based on the 12400f CPU.</p>
+        <p>Since my teenage years and up until now, I have been eager to create functional code, and I am passionate about becoming a programmer to gain real commercial experience.</p>
+      </article>
+      <article class="education">
+        <h2>Education</h2>
+        <ul>
+          <li>Yelabuga Teachers Training University (KFU),<p>1998 - 2003 Faculty of Foreign Languages, <em><strong>Teacher of English &amp; German</strong></em></p></li>
+          <li>Tula State University, 2020, <em><strong>Web Developer Certification</strong></em></li>
+          <li>FreeCodeCamp, 2022, <em><strong>Responsive Web Design Developer Certification</strong></em></li>
+          <li>Kazan National Research Technological University (KNRTU), 2022, <em><strong>Frontend Development Technologies</strong></em></li>
+        </ul>
+      </article>
+      <article class="code-example">
+        <h2>Code Example</h2>
+        <p>This is one of my solutions from Codewars:</p>
+        <ol>
+          <li>Your are given a string.</li>
+          <li>You must replace any occurence of the sequence coverage by covfefe, however, if you don't find the word coverage in the string, you must add covfefe at the end of the string with a leading space.</li>
+        </ol>
+        <pre><code>
+function covfefe(str){
+  if(!str.includes('coverage')){
+    return str + ' covfefe';}
+     else{
+      return str.replace(/coverage/g,'covfefe');
+  }
+}</code></pre>
+      </article>
+    </div>
+  </main>
+  <footer>
+    <a href="https://rs.school/courses/javascript-preschool-ru"><img src="assets/logo-rsschool3.png" alt="RS School logo"></a>
+    <p>This website was created by <a href="https://github.com/Njavka">Navka</a> for educational purposes as part of a web dev course practice, 2024</p>
+  </footer>
+</body>
+</html>
